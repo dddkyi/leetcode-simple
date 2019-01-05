@@ -17,5 +17,6 @@ public class leetcode27 {
                 nums[i-j]=nums[i];
             }
             return nums.length-j;
+
         }
     }
