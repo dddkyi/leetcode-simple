@@ -1,6 +1,7 @@
 package leetcode;
 
 public class leetcode35 {
+//    二分法查找
     public static int searchInsert(int[] nums, int target) {
         int min=0,max=nums.length-1,middle;
         if (target<=nums[0]){
