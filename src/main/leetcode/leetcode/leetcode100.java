@@ -1,7 +1,7 @@
 package main.leetcode.leetcode;
 import main.leetcode.leetcode.*;
 public class leetcode100 {
-//   参考leetcode kuailephoebe
+//   参考leetcode kuailephoebe所写
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
 
