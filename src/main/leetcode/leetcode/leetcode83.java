@@ -1,4 +1,4 @@
-package leetcode;
+package main.leetcode.leetcode;
 
 public class leetcode83 {
     /**
@@ -9,9 +9,9 @@ public class leetcode83 {
      *     ListNode(int x) { val = x; }
      * }
      */
-        public  static ListNode deleteDuplicates(ListNode head) {
+        public  static leetcode.ListNode deleteDuplicates(leetcode.ListNode head) {
              int temp;
-             ListNode l=head;
+             leetcode.ListNode l=head;
              if (head==null) {
                  return null;
              }
@@ -30,10 +30,10 @@ public class leetcode83 {
         }
 
     public static void main(String[] args){
-        ListNode b;
-        ListNode listNode=new ListNode(1);
-        listNode.next=new ListNode(1);
-        listNode.next.next=new ListNode(2);
+        leetcode.ListNode b;
+        leetcode.ListNode listNode=new leetcode.ListNode(1);
+        listNode.next=new leetcode.ListNode(1);
+        listNode.next.next=new leetcode.ListNode(2);
         b=leetcode83.deleteDuplicates(listNode);
         System.out.println(b);
     }

@@ -44,7 +44,7 @@ public class leetcode168 {
 
     public static void main(String[] args){
 
-      String ret= leetcode168.convertToTitle(703);
+        String ret= leetcode168.convertToTitle(703);
         System.out.println(ret);
     }
 }
